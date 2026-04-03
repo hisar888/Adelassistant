@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+:root {
+  /* Light theme */
+  --bg-primary: #FFF8F0;
+  --bg-secondary: #FFF1E6;
+  --bg-card: #FFFFFF;
+  --text-primary: #1A1A2E;
+  --text-secondary: #6B7280;
+  --accent-primary: #FF8C42;
+  --accent-secondary: #4A90D9;
+  --success: #5CB85C;
+  --xp-gold: #FFB800;
+  --energy-teal: #10B981;
+  --streak-red: #EF4444;
+  --border: rgba(0, 0, 0, 0.05);
+  --shadow: rgba(0, 0, 0, 0.06);
+
+  /* Branch colors - more vibrant */
+  --branch-basics: #3B82F6;
+  --branch-prompts: #FF8C42;
+  --branch-content: #A855F7;
+  --branch-study: #10B981;
+  --branch-automation: #F59E0B;
+  --branch-data: #6366F1;
+  --branch-edge: #EF4444;
+
+  font-family: 'Outfit', 'Inter', system-ui, sans-serif;
+  color: var(--text-primary);
+  background-color: var(--bg-primary);
+
+  /* Radius mapping - smoother */
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 20px;
+  --radius-xl: 32px;
+  --radius-full: 9999px;
+}
+
+[data-theme="dark"] {
+  --bg-primary: #0F172A;
+  --bg-secondary: #1E293B;
+  --bg-card: #1E293B;
+  --text-primary: #F8FAFC;
+  --text-secondary: #94A3B8;
+  --accent-primary: #FB923C;
+  --border: rgba(255, 255, 255, 0.05);
+  --shadow: rgba(0, 0, 0, 0.4);
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.2s ease;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  overflow-x: hidden;
+}
+
+/* Glassmorphism helpers */
+.glass-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 4px 12px var(--shadow);
+}
+
+[data-theme="dark"] .glass-card {
+  background: rgba(30, 41, 59, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Better Scrolling */
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+/* Animations */
+@keyframes pulseGlow {
+  0% { box-shadow: 0 0 0 0 rgba(255, 140, 66, 0.4); }
+  70% { box-shadow: 0 0 0 10px rgba(255, 140, 66, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(255, 140, 66, 0); }
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 2s infinite;
+}

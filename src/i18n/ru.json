@@ -1,0 +1,61 @@
+{
+  "common": {
+    "continue": "Продолжить",
+    "back": "Назад",
+    "save": "Сохранить",
+    "cancel": "Отмена",
+    "loading": "Загрузка...",
+    "offline": "Нет подключения",
+    "error": "Ошибка"
+  },
+  "nav": {
+    "home": "Главная",
+    "map": "Карта",
+    "mentor": "Наставник",
+    "family": "Семья",
+    "profile": "Профиль"
+  },
+  "home": {
+    "greeting_morning": "Доброе утро, {{name}}!",
+    "greeting_afternoon": "Добрый день, {{name}}!",
+    "greeting_evening": "Добрый вечер, {{name}}!",
+    "continue_learning": "Продолжить обучение",
+    "daily_quest": "Квест дня",
+    "ai_news": "Новости ИИ",
+    "family_ranking": "Семейный рейтинг"
+  },
+  "gamification": {
+    "level": "Уровень",
+    "xp": "Опыт",
+    "streak": "Дней подряд",
+    "energy": "Энергия",
+    "achievement": "Достижение",
+    "quest_complete": "Квест пройден!",
+    "new_level": "Новый уровень!"
+  },
+  "quest": {
+    "start": "Начать квест",
+    "continue": "Продолжить",
+    "hint": "Подсказка",
+    "hints_left": "Осталось подсказок: {{count}}",
+    "submit": "Отправить",
+    "complete": "Квест завершён!"
+  },
+  "mentor": {
+    "free_question": "Свободный вопрос",
+    "continue_quest": "Продолжить квест",
+    "ai_news": "Новости ИИ",
+    "thinking": "Думаю..."
+  },
+  "levels": {
+    "adult_1": "Новичок",
+    "adult_2": "Исследователь",
+    "adult_3": "Ученик",
+    "adult_4": "Практик",
+    "adult_5": "Мастер",
+    "adult_6": "Эксперт",
+    "child_1": "Малыш-Робот",
+    "child_2": "Робот-Друг",
+    "child_3": "Робот-Мастер"
+  }
+}

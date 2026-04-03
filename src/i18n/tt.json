@@ -1,0 +1,61 @@
+{
+  "common": {
+    "continue": "Дәвам итү",
+    "back": "Артка",
+    "save": "Саклау",
+    "cancel": "Кире кагу",
+    "loading": "Йөкләнә...",
+    "offline": "Интернет юк",
+    "error": "Хата"
+  },
+  "nav": {
+    "home": "Төп",
+    "map": "Харита",
+    "mentor": "Остаз",
+    "family": "Гаилә",
+    "profile": "Профиль"
+  },
+  "home": {
+    "greeting_morning": "Хәерле иртә, {{name}}!",
+    "greeting_afternoon": "Хәерле көн, {{name}}!",
+    "greeting_evening": "Хәерле кич, {{name}}!",
+    "continue_learning": "Укуны дәвам итү",
+    "daily_quest": "Көн биреме",
+    "ai_news": "ЯИ яңалыклары",
+    "family_ranking": "Гаиләнгә рейтинг"
+  },
+  "gamification": {
+    "level": "Дәрәҗә",
+    "xp": "Тәҗрибә",
+    "streak": "Көн рәттән",
+    "energy": "Энергия",
+    "achievement": "Казаныш",
+    "quest_complete": "Бирем үтәлде!",
+    "new_level": "Яңа дәрәҗә!"
+  },
+  "quest": {
+    "start": "Биремне башлау",
+    "continue": "Дәвам итү",
+    "hint": "Кисәтмә",
+    "hints_left": "Кисәтмәләр калды: {{count}}",
+    "submit": "Җибәрү",
+    "complete": "Бирем үтәлде!"
+  },
+  "mentor": {
+    "free_question": "Ирекле сорау",
+    "continue_quest": "Биремне дәвам итү",
+    "ai_news": "ЯИ яңалыклары",
+    "thinking": "Уйлыйм..."
+  },
+  "levels": {
+    "adult_1": "Яңа башлаучы",
+    "adult_2": "Тикшерүче",
+    "adult_3": "Шәкерт",
+    "adult_4": "Гамәлче",
+    "adult_5": "Остаз",
+    "adult_6": "Белгеч",
+    "child_1": "Кечкенә-Робот",
+    "child_2": "Робот-Дус",
+    "child_3": "Робот-Остаз"
+  }
+}
